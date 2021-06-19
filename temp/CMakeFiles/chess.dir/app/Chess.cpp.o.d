@@ -157,4 +157,5 @@ CMakeFiles/chess.dir/app/Chess.cpp.o: \
  /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h /usr/include/GL/glu.h \
- /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/stdlib.h
+ /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/stdlib.h \
+ /home/jdoe/Desktop/GitRepositories/SmartChessEngine/include/Piece.hpp

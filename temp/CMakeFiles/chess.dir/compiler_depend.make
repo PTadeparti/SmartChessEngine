@@ -196,7 +196,8 @@ CMakeFiles/chess.dir/app/Chess.cpp.o: ../app/Chess.cpp \
   /usr/include/GL/glext.h \
   /usr/include/KHR/khrplatform.h \
   /usr/include/GL/glu.h \
-  /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/stdlib.h
+  /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/stdlib.h \
+  ../include/Piece.hpp
 
 
 /usr/include/GL/glext.h:
@@ -250,6 +251,8 @@ CMakeFiles/chess.dir/app/Chess.cpp.o: ../app/Chess.cpp \
 /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/string_view:
 
 /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/bits/alloc_traits.h:
+
+../include/Piece.hpp:
 
 /opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/ext/alloc_traits.h:
 
