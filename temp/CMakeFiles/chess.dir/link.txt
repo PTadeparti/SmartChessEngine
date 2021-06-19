@@ -1,0 +1,1 @@
+/opt/sde/bin/c++ -rdynamic CMakeFiles/chess.dir/app/Chess.cpp.o -o chess  -lGL -lGLU -lglut -lXi 

@@ -1,0 +1,264 @@
+The system is: Linux - 5.8.15-301.fc33.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/sde/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jdoe/Desktop/GitRepositories/SmartChessEngine/temp/CMakeFiles/3.20.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jdoe/Desktop/GitRepositories/SmartChessEngine/temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53db8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53db8.dir/build.make CMakeFiles/cmTC_53db8.dir/build
+gmake[1]: Entering directory '/home/jdoe/Desktop/GitRepositories/SmartChessEngine/temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o
+/opt/sde/bin/c++   -v -o CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o -c /opt/sde/packages/cmake-3.20.1/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/sde/packages/gcc/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../src/configure --prefix=/opt/sde/packages/gcc-11.1.0 --enable-threads=posix --enable-tls --disable-multilib --enable-languages=c,c++,fortran
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53db8.dir/'
+ /opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/sde/packages/cmake-3.20.1/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_53db8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccbaAhLC.s
+GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/sde/packages/boost/include
+ /opt/sde/packages/catch/include
+ /opt/sde/packages/gsl/include
+ /opt/sde/packages/CGAL/include
+ /opt/sde/packages/fmtlib/include
+ /opt/sde/packages/jasper/include
+ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0
+ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu
+ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward
+ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include
+ /usr/local/include
+ /opt/sde/packages/gcc-11.1.0/include
+ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2360a9d001e1f54fda9a130dad59408b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53db8.dir/'
+ as -v --64 -o CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbaAhLC.s
+GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-10.fc33
+COMPILER_PATH=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/sde/packages/catch/lib64/../lib64/:/opt/sde/packages/CGAL/lib64/../lib64/:/opt/sde/packages/fmtlib/lib64/../lib64/:/opt/sde/packages/jasper/lib64/../lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/sde/packages/boost/lib/:/opt/sde/packages/catch/lib64/:/opt/sde/packages/CGAL/lib64/:/opt/sde/packages/fmtlib/lib64/:/opt/sde/packages/jasper/lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_53db8
+/opt/sde/packages/cmake-3.20.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53db8.dir/link.txt --verbose=1
+/opt/sde/bin/c++  -v -rdynamic CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_53db8 
+Using built-in specs.
+COLLECT_GCC=/opt/sde/packages/gcc/bin/g++
+COLLECT_LTO_WRAPPER=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../src/configure --prefix=/opt/sde/packages/gcc-11.1.0 --enable-threads=posix --enable-tls --disable-multilib --enable-languages=c,c++,fortran
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/sde/packages/catch/lib64/../lib64/:/opt/sde/packages/CGAL/lib64/../lib64/:/opt/sde/packages/fmtlib/lib64/../lib64/:/opt/sde/packages/jasper/lib64/../lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/sde/packages/boost/lib/:/opt/sde/packages/catch/lib64/:/opt/sde/packages/CGAL/lib64/:/opt/sde/packages/fmtlib/lib64/:/opt/sde/packages/jasper/lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_53db8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_53db8.'
+ /opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccStbV2a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_53db8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o -L/opt/sde/packages/catch/lib64/../lib64 -L/opt/sde/packages/CGAL/lib64/../lib64 -L/opt/sde/packages/fmtlib/lib64/../lib64 -L/opt/sde/packages/jasper/lib64/../lib64 -L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/sde/packages/boost/lib -L/opt/sde/packages/catch/lib64 -L/opt/sde/packages/CGAL/lib64 -L/opt/sde/packages/fmtlib/lib64 -L/opt/sde/packages/jasper/lib64 -L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o -rpath /opt/sde/packages/boost/lib -rpath /opt/sde/packages/catch/lib64 -rpath /opt/sde/packages/CGAL/lib64 -rpath /opt/sde/packages/fmtlib/lib64 -rpath /opt/sde/packages/jasper/lib64 -rpath /opt/sde/packages/gcc/lib64 -lfmt -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_53db8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_53db8.'
+gmake[1]: Leaving directory '/home/jdoe/Desktop/GitRepositories/SmartChessEngine/temp/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/sde/packages/boost/include]
+    add: [/opt/sde/packages/catch/include]
+    add: [/opt/sde/packages/gsl/include]
+    add: [/opt/sde/packages/CGAL/include]
+    add: [/opt/sde/packages/fmtlib/include]
+    add: [/opt/sde/packages/jasper/include]
+    add: [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0]
+    add: [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu]
+    add: [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward]
+    add: [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+    add: [/usr/local/include]
+    add: [/opt/sde/packages/gcc-11.1.0/include]
+    add: [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/sde/packages/boost/include] ==> [/opt/sde/packages/boost/include]
+  collapse include dir [/opt/sde/packages/catch/include] ==> [/opt/sde/packages/catch/include]
+  collapse include dir [/opt/sde/packages/gsl/include] ==> [/opt/sde/packages/gsl/include]
+  collapse include dir [/opt/sde/packages/CGAL/include] ==> [/opt/sde/packages/CGAL/include]
+  collapse include dir [/opt/sde/packages/fmtlib/include] ==> [/opt/sde/packages/fmtlib/include]
+  collapse include dir [/opt/sde/packages/jasper/include] ==> [/opt/sde/packages/jasper/include]
+  collapse include dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0] ==> [/opt/sde/packages/gcc-11.1.0/include/c++/11.1.0]
+  collapse include dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu] ==> [/opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward] ==> [/opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/backward]
+  collapse include dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include] ==> [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/sde/packages/gcc-11.1.0/include] ==> [/opt/sde/packages/gcc-11.1.0/include]
+  collapse include dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed] ==> [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/sde/packages/boost/include;/opt/sde/packages/catch/include;/opt/sde/packages/gsl/include;/opt/sde/packages/CGAL/include;/opt/sde/packages/fmtlib/include;/opt/sde/packages/jasper/include;/opt/sde/packages/gcc-11.1.0/include/c++/11.1.0;/opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/x86_64-pc-linux-gnu;/opt/sde/packages/gcc-11.1.0/include/c++/11.1.0/backward;/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include;/usr/local/include;/opt/sde/packages/gcc-11.1.0/include;/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jdoe/Desktop/GitRepositories/SmartChessEngine/temp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53db8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53db8.dir/build.make CMakeFiles/cmTC_53db8.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/jdoe/Desktop/GitRepositories/SmartChessEngine/temp/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/sde/bin/c++   -v -o CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o -c /opt/sde/packages/cmake-3.20.1/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/sde/packages/gcc/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../src/configure --prefix=/opt/sde/packages/gcc-11.1.0 --enable-threads=posix --enable-tls --disable-multilib --enable-languages=c c++ fortran]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53db8.dir/']
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/sde/packages/cmake-3.20.1/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_53db8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccbaAhLC.s]
+  ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/sde/packages/boost/include]
+  ignore line: [ /opt/sde/packages/catch/include]
+  ignore line: [ /opt/sde/packages/gsl/include]
+  ignore line: [ /opt/sde/packages/CGAL/include]
+  ignore line: [ /opt/sde/packages/fmtlib/include]
+  ignore line: [ /opt/sde/packages/jasper/include]
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0]
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward]
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/include]
+  ignore line: [ /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2360a9d001e1f54fda9a130dad59408b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53db8.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbaAhLC.s]
+  ignore line: [GNU assembler version 2.35 (x86_64-redhat-linux) using BFD version version 2.35-10.fc33]
+  ignore line: [COMPILER_PATH=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/sde/packages/catch/lib64/../lib64/:/opt/sde/packages/CGAL/lib64/../lib64/:/opt/sde/packages/fmtlib/lib64/../lib64/:/opt/sde/packages/jasper/lib64/../lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/sde/packages/boost/lib/:/opt/sde/packages/catch/lib64/:/opt/sde/packages/CGAL/lib64/:/opt/sde/packages/fmtlib/lib64/:/opt/sde/packages/jasper/lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_53db8]
+  ignore line: [/opt/sde/packages/cmake-3.20.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53db8.dir/link.txt --verbose=1]
+  ignore line: [/opt/sde/bin/c++  -v -rdynamic CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_53db8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/sde/packages/gcc/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../src/configure --prefix=/opt/sde/packages/gcc-11.1.0 --enable-threads=posix --enable-tls --disable-multilib --enable-languages=c c++ fortran]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/sde/packages/catch/lib64/../lib64/:/opt/sde/packages/CGAL/lib64/../lib64/:/opt/sde/packages/fmtlib/lib64/../lib64/:/opt/sde/packages/jasper/lib64/../lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/sde/packages/boost/lib/:/opt/sde/packages/catch/lib64/:/opt/sde/packages/CGAL/lib64/:/opt/sde/packages/fmtlib/lib64/:/opt/sde/packages/jasper/lib64/:/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_53db8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_53db8.']
+  link line: [ /opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccStbV2a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_53db8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o -L/opt/sde/packages/catch/lib64/../lib64 -L/opt/sde/packages/CGAL/lib64/../lib64 -L/opt/sde/packages/fmtlib/lib64/../lib64 -L/opt/sde/packages/jasper/lib64/../lib64 -L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/sde/packages/boost/lib -L/opt/sde/packages/catch/lib64 -L/opt/sde/packages/CGAL/lib64 -L/opt/sde/packages/fmtlib/lib64 -L/opt/sde/packages/jasper/lib64 -L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o -rpath /opt/sde/packages/boost/lib -rpath /opt/sde/packages/catch/lib64 -rpath /opt/sde/packages/CGAL/lib64 -rpath /opt/sde/packages/fmtlib/lib64 -rpath /opt/sde/packages/jasper/lib64 -rpath /opt/sde/packages/gcc/lib64 -lfmt -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/sde/packages/gcc-11.1.0/libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccStbV2a.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_53db8] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o] ==> obj [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o]
+    arg [-L/opt/sde/packages/catch/lib64/../lib64] ==> dir [/opt/sde/packages/catch/lib64/../lib64]
+    arg [-L/opt/sde/packages/CGAL/lib64/../lib64] ==> dir [/opt/sde/packages/CGAL/lib64/../lib64]
+    arg [-L/opt/sde/packages/fmtlib/lib64/../lib64] ==> dir [/opt/sde/packages/fmtlib/lib64/../lib64]
+    arg [-L/opt/sde/packages/jasper/lib64/../lib64] ==> dir [/opt/sde/packages/jasper/lib64/../lib64]
+    arg [-L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0]
+    arg [-L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64] ==> dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/sde/packages/boost/lib] ==> dir [/opt/sde/packages/boost/lib]
+    arg [-L/opt/sde/packages/catch/lib64] ==> dir [/opt/sde/packages/catch/lib64]
+    arg [-L/opt/sde/packages/CGAL/lib64] ==> dir [/opt/sde/packages/CGAL/lib64]
+    arg [-L/opt/sde/packages/fmtlib/lib64] ==> dir [/opt/sde/packages/fmtlib/lib64]
+    arg [-L/opt/sde/packages/jasper/lib64] ==> dir [/opt/sde/packages/jasper/lib64]
+    arg [-L/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
+    arg [CMakeFiles/cmTC_53db8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/sde/packages/boost/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/sde/packages/catch/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/sde/packages/CGAL/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/sde/packages/fmtlib/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/sde/packages/jasper/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/sde/packages/gcc/lib64] ==> ignore
+    arg [-lfmt] ==> lib [fmt]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o] ==> obj [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/opt/sde/packages/catch/lib64/../lib64] ==> [/opt/sde/packages/catch/lib64]
+  collapse library dir [/opt/sde/packages/CGAL/lib64/../lib64] ==> [/opt/sde/packages/CGAL/lib64]
+  collapse library dir [/opt/sde/packages/fmtlib/lib64/../lib64] ==> [/opt/sde/packages/fmtlib/lib64]
+  collapse library dir [/opt/sde/packages/jasper/lib64/../lib64] ==> [/opt/sde/packages/jasper/lib64]
+  collapse library dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0]
+  collapse library dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64] ==> [/opt/sde/packages/gcc-11.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/sde/packages/boost/lib] ==> [/opt/sde/packages/boost/lib]
+  collapse library dir [/opt/sde/packages/catch/lib64] ==> [/opt/sde/packages/catch/lib64]
+  collapse library dir [/opt/sde/packages/CGAL/lib64] ==> [/opt/sde/packages/CGAL/lib64]
+  collapse library dir [/opt/sde/packages/fmtlib/lib64] ==> [/opt/sde/packages/fmtlib/lib64]
+  collapse library dir [/opt/sde/packages/jasper/lib64] ==> [/opt/sde/packages/jasper/lib64]
+  collapse library dir [/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> [/opt/sde/packages/gcc-11.1.0/lib]
+  implicit libs: [fmt;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o;/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/opt/sde/packages/catch/lib64;/opt/sde/packages/CGAL/lib64;/opt/sde/packages/fmtlib/lib64;/opt/sde/packages/jasper/lib64;/opt/sde/packages/gcc-11.1.0/lib/gcc/x86_64-pc-linux-gnu/11.1.0;/opt/sde/packages/gcc-11.1.0/lib64;/lib64;/usr/lib64;/opt/sde/packages/boost/lib;/opt/sde/packages/gcc-11.1.0/lib]
+  implicit fwks: []
+
+
