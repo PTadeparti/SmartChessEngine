@@ -9,35 +9,51 @@ namespace Chess
     public:
         ChessBoard()
         {
-            wPawn1 = Pawn(0, 50);
-            wPawn2 = Pawn(50, 50);
-            wPawn3 = Pawn(100, 50);
-            wPawn4 = Pawn(150, 50);
-            wPawn5 = Pawn(200, 50);
-            wPawn6 = Pawn(250, 50);
-            wPawn7 = Pawn(300, 50);
-            wPawn8 = Pawn(350, 50);
-            wRook1 = Rook(0,0);
-            wRook2 = Rook(350,0);
-            wKnight1 = Knight(50,0);
-            wKnight2 = Knight(300,0);
-            wBishop1 = Bishop(100,0);
-            wBishop2 = Bishop(250,0);
-            wQueen = Queen(150,0);
-            wKing = King(200,0);
-            std::cout << "Constructed board. pawn: " << wPawn1.getX();
+            wPawn1 = Pawn(0, 50, Colour::white);
+            wPawn2 = Pawn(50, 50, Colour::white);
+            wPawn3 = Pawn(100, 50, Colour::white);
+            wPawn4 = Pawn(150, 50, Colour::white);
+            wPawn5 = Pawn(200, 50, Colour::white);
+            wPawn6 = Pawn(250, 50, Colour::white);
+            wPawn7 = Pawn(300, 50, Colour::white);
+            wPawn8 = Pawn(350, 50, Colour::white);
+            wRook1 = Rook(0, 0, Colour::white);
+            wRook2 = Rook(350, 0, Colour::white);
+            wKnight1 = Knight(50, 0, Colour::white);
+            wKnight2 = Knight(300, 0, Colour::white);
+            wBishop1 = Bishop(100, 0, Colour::white);
+            wBishop2 = Bishop(250, 0, Colour::white);
+            wQueen = Queen(150, 0, Colour::white);
+            wKing = King(200, 0, Colour::white);
+
+            bPawn1 = Pawn(0, 300, Colour::black);
+            bPawn2 = Pawn(50, 300, Colour::black);
+            bPawn3 = Pawn(100, 300, Colour::black);
+            bPawn4 = Pawn(150, 300, Colour::black);
+            bPawn5 = Pawn(200, 300, Colour::black);
+            bPawn6 = Pawn(250, 300, Colour::black);
+            bPawn7 = Pawn(300, 300, Colour::black);
+            bPawn8 = Pawn(350, 300, Colour::black);
+            bRook1 = Rook(0, 350, Colour::black);
+            bRook2 = Rook(350, 350, Colour::black);
+            bKnight1 = Knight(50, 350, Colour::black);
+            bKnight2 = Knight(300, 350, Colour::black);
+            bBishop1 = Bishop(100, 350, Colour::black);
+            bBishop2 = Bishop(250, 350, Colour::black);
+            bQueen = Queen(150, 350, Colour::black);
+            bKing = King(200, 350, Colour::black);
         }
 
-        static void drawSquare(int x , int y, bool isWhiteSquare)
+        static void drawSquare(int x, int y, bool isLightSquare)
         {
-            isWhiteSquare ? glColor3f(0.74, 0.87, 0.99) : glColor3f(0.13, 0.12, 0.24);
+            isLightSquare ? glColor3f(0.8, 0.8, 1) : glColor3f(0.4, 0.4, 0.5);
             glBegin(GL_POLYGON);
             glVertex2i(x, y);
             glVertex2i(x, y + 50);
             glVertex2i(x + 50, y + 50);
             glVertex2i(x + 50, y);
             glEnd();
-        }        
+        }
 
         void display(void)
         {
@@ -52,11 +68,11 @@ namespace Chess
                 {
                     if (rank % 2)
                     {
-                        (file % 2) ? drawSquare(xCoordinate, yCoordinate,0) : drawSquare(xCoordinate, yCoordinate,1);
+                        (file % 2) ? drawSquare(xCoordinate, yCoordinate, 0) : drawSquare(xCoordinate, yCoordinate, 1);
                     }
                     else
                     {
-                        (file % 2) ? drawSquare(xCoordinate, yCoordinate,1) : drawSquare(xCoordinate, yCoordinate,0);
+                        (file % 2) ? drawSquare(xCoordinate, yCoordinate, 1) : drawSquare(xCoordinate, yCoordinate, 0);
                     }
 
                     xCoordinate += 50;
@@ -81,6 +97,23 @@ namespace Chess
             wBishop2.Draw();
             wQueen.Draw();
             wKing.Draw();
+
+            bPawn1.Draw();
+            bPawn2.Draw();
+            bPawn3.Draw();
+            bPawn4.Draw();
+            bPawn5.Draw();
+            bPawn6.Draw();
+            bPawn7.Draw();
+            bPawn8.Draw();
+            bRook1.Draw();
+            bRook2.Draw();
+            bKnight1.Draw();
+            bKnight2.Draw();
+            bBishop1.Draw();
+            bBishop2.Draw();
+            bQueen.Draw();
+            bKing.Draw();
             glFlush();
         }
 
@@ -118,5 +151,10 @@ namespace Chess
         King wKing;
         Queen wQueen;
         Pawn bPawn1, bPawn2, bPawn3, bPawn4, bPawn5, bPawn6, bPawn7, bPawn8;
+        Rook bRook1, bRook2;
+        Knight bKnight1, bKnight2;
+        Bishop bBishop1, bBishop2;
+        King bKing;
+        Queen bQueen;
     };
 }

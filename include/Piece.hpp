@@ -17,15 +17,11 @@ namespace Chess
         virtual void Draw() = 0;
         virtual void Move(int, int, int, int) = 0;
 
-        Piece(Colour colour)
-        {
-            this->colour = colour;
-        }
-
-        Piece(int x, int y)
+        Piece(int x, int y, Colour colour)
         {
             this->x = x;
             this->y = y;
+            this->colour = colour;
         }
 
         Piece()
@@ -71,22 +67,11 @@ namespace Chess
     class Pawn : public Piece
     {
     public:
-        Pawn(int x, int y)
-        {
-
-            setX(x);
-            setY(y);
-        }
-
-        Pawn()
-        {
-            setX(0);
-            setY(0);
-        }
+        using Piece::Piece;
 
         void Draw()
         {
-            glColor3f(1, 1, 1);
+            colour == Colour::white ? glColor3f(1, 1, 1) : glColor3f(0, 0, 0);
             drawTriangle(getX() + 10, getY() + 10, getX() + 40, getY() + 30);
             drawCircle(getX() + 25, getY() + 35, 10);
         }
@@ -101,23 +86,17 @@ namespace Chess
     class Rook : public Piece
     {
     public:
-        Rook(int x, int y)
-        {
-
-            setX(x);
-            setY(y);
-        }
-
-        Rook()
-        {
-            setX(0);
-            setY(0);
-        }
+        using Piece::Piece;
 
         void Draw()
         {
-            drawRectangle(getX() + 15, getY() + 10, getX() + 35, getY() + 35);
-            drawRectangle(getX() + 10, getY() + 35, getX() + 40, getY() + 45);
+            colour == Colour::white ? glColor3f(1, 1, 1) : glColor3f(0, 0, 0);
+            drawRectangle(getX() + 10, getY() + 10, getX() + 40, getY() + 13);
+            drawRectangle(getX() + 15, getY() + 10, getX() + 35, getY() + 32);
+            drawRectangle(getX() + 10, getY() + 32, getX() + 40, getY() + 36);
+            drawRectangle(getX() + 10, getY() + 36, getX() + 15, getY() + 40);
+            drawRectangle(getX() + 22, getY() + 36, getX() + 28, getY() + 40);
+            drawRectangle(getX() + 35, getY() + 36, getX() + 40, getY() + 40);
         }
 
         void Move(int xCurrent, int yCurrent, int xNext, int yNext)
@@ -130,21 +109,11 @@ namespace Chess
     class Knight : public Piece
     {
     public:
-        Knight(int x, int y)
-        {
-
-            setX(x);
-            setY(y);
-        }
-
-        Knight()
-        {
-            setX(0);
-            setY(0);
-        }
+        using Piece::Piece;
 
         void Draw()
         {
+            colour == Colour::white ? glColor3f(1, 1, 1) : glColor3f(0, 0, 0);
             drawRectangle(getX() + 10, getY() + 10, getX() + 18, getY() + 35);
             drawRectangle(getX() + 10, getY() + 35, getX() + 35, getY() + 40);
             drawTriangle(getX() + 25, getY() + 40, getX() + 40, getY() + 20);
@@ -160,26 +129,14 @@ namespace Chess
     class Bishop : public Piece
     {
     public:
-        Bishop(int x, int y)
-        {
-
-            setX(x);
-            setY(y);
-        }
-
-        Bishop()
-        {
-            setX(0);
-            setY(0);
-        }
+        using Piece::Piece;
 
         void Draw()
         {
-            glColor3f(1, 1, 1);
+            colour == Colour::white ? glColor3f(1, 1, 1) : glColor3f(0, 0, 0);
             drawRectangle(getX() + 10, getY() + 10, getX() + 40, getY() + 13);
             drawRectangle(getX() + 20, getY() + 13, getX() + 30, getY() + 32);
             drawTriangle(getX() + 15, getY() + 32, getX() + 35, getY() + 40);
-            
         }
 
         void Move(int xCurrent, int yCurrent, int xNext, int yNext)
@@ -192,27 +149,15 @@ namespace Chess
     class Queen : public Piece
     {
     public:
-        Queen(int x, int y)
-        {
-
-            setX(x);
-            setY(y);
-        }
-
-        Queen()
-        {
-            setX(0);
-            setY(0);
-        }
+        using Piece::Piece;
 
         void Draw()
         {
-            glColor3f(1, 1, 1);
-            drawRectangle(getX() + 8, getY() + 10, getX() + 42, getY() + 30);            
+            colour == Colour::white ? glColor3f(1, 1, 1) : glColor3f(0, 0, 0);
+            drawRectangle(getX() + 8, getY() + 10, getX() + 42, getY() + 30);
             drawTriangle(getX() + 10, getY() + 30, getX() + 20, getY() + 43);
             drawTriangle(getX() + 20, getY() + 30, getX() + 30, getY() + 43);
             drawTriangle(getX() + 30, getY() + 30, getX() + 40, getY() + 43);
-            
         }
 
         void Move(int xCurrent, int yCurrent, int xNext, int yNext)
@@ -225,26 +170,15 @@ namespace Chess
     class King : public Piece
     {
     public:
-        King(int x, int y)
-        {
-
-            setX(x);
-            setY(y);
-        }
-
-        King()
-        {
-            setX(0);
-            setY(0);
-        }
+        using Piece::Piece;
 
         void Draw()
         {
-            glColor3f(1, 1, 1);
+            colour == Colour::white ? glColor3f(1, 1, 1) : glColor3f(0, 0, 0);
             drawRectangle(getX() + 10, getY() + 10, getX() + 40, getY() + 15);
             drawRectangle(getX() + 18, getY() + 15, getX() + 32, getY() + 30);
             drawRectangle(getX() + 23, getY() + 30, getX() + 27, getY() + 45);
-            drawRectangle(getX() + 20, getY() + 38, getX() + 30, getY() + 42);            
+            drawRectangle(getX() + 20, getY() + 38, getX() + 30, getY() + 42);
         }
 
         void Move(int xCurrent, int yCurrent, int xNext, int yNext)
@@ -265,7 +199,7 @@ namespace Chess
     }
 
     void drawCircle(int x, int y, int r)
-    {        
+    {
         glPointSize(r);
         glBegin(GL_POINTS);
         glVertex2f(x, y);
