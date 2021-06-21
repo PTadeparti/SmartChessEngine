@@ -188,6 +188,22 @@ namespace Chess
     private:
     };
 
+    class Empty : public Piece
+    {
+    public:
+        using Piece::Piece;
+
+        void Draw()
+        {            
+        }
+
+        void Move(int xCurrent, int yCurrent, int xNext, int yNext)
+        {
+        }
+
+    private:
+    };
+
     void drawRectangle(int x1, int y1, int x2, int y2)
     {
         glBegin(GL_POLYGON);
