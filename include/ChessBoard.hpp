@@ -10,14 +10,16 @@
 #define Q 5
 #define K 6
 #define squareSize 50
+#define windowHeight 600
+#define windowWidth 600
 
 namespace Chess
 {
     class ChessBoard
     {
     public:
-        
         Piece *chessBoard[8][8];
+        bool isPieceSelected = false;
 
         ChessBoard()
         {
@@ -62,7 +64,7 @@ namespace Chess
                         break;
                     }
                 }
-            }           
+            }
         }
 
         static void drawSquare(int x, int y, bool isLightSquare)
@@ -100,9 +102,36 @@ namespace Chess
                 }
                 yCoordinate += squareSize;
                 xCoordinate = 0;
-            }        
+            }
 
             glFlush();
+        }
+
+        void mouse(int button, int state, int mouseX, int mouseY)
+        {
+            if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+            {
+                mouseY = windowHeight - mouseY;
+
+                for (int x = 0; x < 8; x++)
+                {
+                    for (int y = 0; y < 8; y++)
+                    {
+                        chessBoard[x][y]->setIsSelected(false);
+                        if ((mouseX > (x * squareSize )) && (mouseX < (x * squareSize + squareSize/2 )) && (mouseY > (y * squareSize )) && (mouseY < (y * squareSize + squareSize/2 )))
+                        {
+                            isPieceSelected = true;
+                            chessBoard[x][y]->setIsSelected(true);                            
+                            chessBoard[x][y]->Draw();
+                        }
+                    }
+                }
+            }            
+        }
+
+        static void mouseCallback(int button, int state, int mouseX, int mouseY)
+        {
+            currentBoard->mouse(button, state, mouseX, mouseY);
         }
 
         static void drawCallback()
@@ -127,10 +156,11 @@ namespace Chess
 
             currentBoard = this;
             glutDisplayFunc(drawCallback);
+            glutMouseFunc(mouseCallback);
             glutMainLoop();
         }
 
     private:
-        inline static ChessBoard *currentBoard;        
+        inline static ChessBoard *currentBoard;
     };
 }
